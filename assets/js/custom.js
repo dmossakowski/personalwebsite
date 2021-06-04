@@ -49,6 +49,14 @@ $(document).ready(function(){
 				scrollTop: $(anchor.attr('href')).offset().top - 0
 			}, 1200,'easeInOutExpo');
 		});
+
+		$('li.normal-menu a').bind("click", function(event) {
+			//event.preventDefault();
+			//var anchor = $(this);
+			//$('html, body').stop().animate({
+			//	scrollTop: $(anchor.attr('href')).offset().top - 0
+			//}, 1200,'easeInOutExpo');
+		});
 		
 		$('body').scrollspy({
 			target:'.navbar-collapse',
