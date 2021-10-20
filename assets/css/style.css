@@ -246,8 +246,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2ca92c;}
         4.  About
 --------------------------------------*/
 .about {padding: 50px 0 100px;}
-.about-content {padding-top: 100px;}
+.about-content {padding-top: 40px;}
 /*.single-about-txt*/
+.single-about-txt h2 {
+    font-size:28px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+}
+
 .single-about-txt h3 {
     font-size:18px;
     color: #3c4258;
@@ -374,7 +381,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
 }
 .skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+.single-skill-content{padding-top: 10px;}
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
@@ -443,7 +450,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
 }
-.experience-content {padding-top: 100px;}
+.experience-content {padding-top: 10px;}
 .single-timeline-box {margin-bottom: 75px;}
 
 /*experience-time*/
@@ -602,7 +609,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border:  1px solid #e5ebf2;
 }
 
-.portfolio-content {padding-top: 100px;}
+.portfolio-content {padding-top: 40px;}
 
 /* ---- .item ---- */
 .isotope:after {
