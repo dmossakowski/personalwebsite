@@ -52,9 +52,24 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+	<script type="text/javascript">
+		var taglines = ['yes I took that photo', 'passionate leader', 'technology solutions', 'technology solutions that fit']
+
+		function changeTagline() {
+			setInterval(changeTaglineNow, 1000)
+		};
+		function changeTaglineNow() {
+			var i = Math.floor(Math.random() * taglines.length);
+
+			var myDiv = document.getElementById("tagline");
+			myDiv.innerHTML = "<p>" + taglines[i] + "</p>";
+		};
+
+
+	</script>
 </head>
 
-<body>
+<body onload="changeTagline()">
 	<!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -118,8 +133,9 @@
 					<div class="header-text">
 						<h2>hi<span>,</span> i<span>'</span>m david <br> <span>.</span> </h2>
 						<!--p>I code, climb, bike</p-->
-						<p>I provide <span>technology</span> solutions to best fit the business purpose and the
-							operating reality</p>
+						<p>
+						<div id="tagline" onclick="changeTagline()">...</div>
+						</p>
 
 
 
