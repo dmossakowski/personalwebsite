@@ -49,12 +49,12 @@
         <![endif]-->
 
 	<script type="text/javascript">
-		var taglines = ['I took that photo', '29 = 700', 'I make awesome cup of java', 'I can ride switch', '5.10d = 6b']
+		var taglines = ['Never stop', '29 = 700', 'I make awesome cup of Java', 'I can ride switch', '5.10d = 6b']
 		var intervalFunction;
 		
 		function changeTagline() {
 			if (intervalFunction )return;
-			intervalFunction = setInterval(changeTaglineNow, 1500)
+			intervalFunction = setInterval(changeTaglineNow, 1700)
 		};
 		function changeTaglineNow() {
 			var i = Math.floor(Math.random() * taglines.length);
@@ -133,7 +133,7 @@
 						<h2>hi<span>,</span> i<span>'</span>m david <br> <span>.</span> </h2>
 						<!--p>I code, climb, bike</p-->
 						<p>
-						<div id="tagline" onclick="changeTagline()"><p>yes I took that photo</p></div>
+						<div id="tagline" onclick="changeTagline()"><p>I make awesome cup of Java</p></div>
 						</p>
 
 
