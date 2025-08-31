@@ -716,6 +716,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height:100%;
     width:100%;
     background:rgba(31,44,108,.5);
+    /* Ensure overlay text is white even when wrapped by a parent <a> with its own color */
+    color:#fff;
     display:flex;
     align-items:center;
     text-transform: uppercase;
@@ -869,9 +871,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-.hm-foot-icon {
-   
-}
+/* (empty base ruleset removed) */
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #636a82;
